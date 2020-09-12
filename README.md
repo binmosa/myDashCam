@@ -2,8 +2,10 @@
 
 <img src="example.png" alt="hi" class="inline"/>
 
+## What is myDashCam Datasets
+The Malaysian DashCam Datasets (myDashCam) is an initiative work that aims to analyse and understand videos recorded via DashCams. It is the first annotated malaysian DashCam dataset that is primarly collected and annotated for resreach purposes.
 
-The Malaysian DashCam Datasets is an initiative work that aims to analyse and understand videos recorded via DashCams. This is primarly a research project and the data is primarly collected for resreach purposes.
+## Annotation Format
 
 You can use the [editor on GitHub](https://github.com/binmosa/myDashCam/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
