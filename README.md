@@ -1,6 +1,9 @@
-## Welcome to the first Malaysian DashCam Datasets
+## Welcome to the First Malaysian DashCam Datasets
 
 <img src="example.png" alt="hi" class="inline"/>
+
+
+The Malaysian DashCam Datasets is an initiative work that aims to analyse and understand videos recorded via DashCams. This is primarly a research project and the data is primarly collected for resreach purposes.
 
 You can use the [editor on GitHub](https://github.com/binmosa/myDashCam/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
