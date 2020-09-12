@@ -16,12 +16,16 @@ The videos can be downloaded from [here](https://drive.google.com/file/d/1yhn4ou
 
 [The annotation file](https://github.com/binmosa/myDashCam/blob/master/Annotation_master.csv) is in csv format. It has 6 colomns that hold the annotation data. These columns are as follows:
 
+```
+metadata_id  |     file_list    |  flags  |  temporal_coordinates  |  spatial_coordinates  |         metadata
+1_RXp9R3ua   | "[""ID01.mp4""]" |    0    |      [3.677,5.646]     | [2,333,198,22.5,45]   | "{""1"":""4"",""2"":""2""}"
+```
+
+each column data is described below:
+
 #### 1) metadata_id
 
-```
-metadata_id,file_list,flags,temporal_coordinates,spatial_coordinates,metadata
-1_RXp9R3ua,"[""ID01.mp4""]",0,[4.036],"[2,333,198,22.5,45]","{""1"":""4"",""2"":""2""}"
-```
+**Bold** and _Italic_ and `Code` text
 
 #### 2) file_list
 
@@ -33,32 +37,4 @@ metadata_id,file_list,flags,temporal_coordinates,spatial_coordinates,metadata
 
 #### 6) metadata
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/binmosa/myDashCam/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
