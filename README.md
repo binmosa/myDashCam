@@ -16,18 +16,22 @@ The videos can be downloaded from [here](https://drive.google.com/file/d/1yhn4ou
 
 [The annotation file](https://github.com/binmosa/myDashCam/blob/master/Annotation_master.csv) is in csv format. It has 6 colomns that hold the annotation data. These columns are as follows:
 
+#### 1) metadata_id
 
-#### metadata_id
+```
+metadata_id,file_list,flags,temporal_coordinates,spatial_coordinates,metadata
+1_RXp9R3ua,"[""ID01.mp4""]",0,[4.036],"[2,333,198,22.5,45]","{""1"":""4"",""2"":""2""}"
+```
 
-#### file_list
+#### 2) file_list
 
-#### flags
+#### 3) flags
 
-#### temporal_coordinates	
+#### 4) temporal_coordinates	
 
-#### spatial_coordinates
+#### 5) spatial_coordinates
 
-#### metadata
+#### 6) metadata
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
