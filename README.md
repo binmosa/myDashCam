@@ -7,7 +7,7 @@ The Malaysian DashCam Datasets (myDashCam) is an initiative work that aims to an
 
 ## Annotation Format
 
-You can use the [editor on GitHub](https://github.com/binmosa/myDashCam/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The videos can be downloaded from [here](https://drive.google.com/file/d/1yhn4ouQbQrhJqX0g1Z808AXoF0oz35PG/view?usp=sharing) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
