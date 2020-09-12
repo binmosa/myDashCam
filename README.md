@@ -10,18 +10,16 @@ The Malaysian DashCam Datasets (myDashCam) is an initiative work that aims to an
 
 ### The Video Files
 
-The videos can be downloaded from [here](https://drive.google.com/file/d/1yhn4ouQbQrhJqX0g1Z808AXoF0oz35PG/view?usp=sharing) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The videos can be downloaded from [here](https://drive.google.com/file/d/1yhn4ouQbQrhJqX0g1Z808AXoF0oz35PG/view?usp=sharing). There are total of 21 videos in the folder. Each of which has been annotated using video annotation tool.
 
 ### The Annotation File
 
- [The annotation file](https://github.com/binmosa/myDashCam/blob/master/Annotation_master.csv).
+[The annotation file](https://github.com/binmosa/myDashCam/blob/master/Annotation_master.csv). The annotation file is in csv format. It has the following data fields :
 
 
 
 
-### Markdown
+#### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
