@@ -49,7 +49,9 @@ The **spatial_coordinates** field holds the spatial coordinate information. It h
 The **metadata** field holds the annotation class id with the following structure: {"class_type":"class_id"}. For example, metadata of {"1":"3"} indicates class type with id "1" set to the class value with id "3". In this dataset, we have 3 types of classes: 1 = Activity Class, 2= Object class, 3=Time class. The activity class type has 7 class values, each of which describes below:
 
 ---------------------------------------------------------------------------
+
 ID	**Class name**	Desciptions
+
 ---------------------------------------------------------------------------
 
 1	**Sudden_lane_change**	A driver/rider in front changes the lane abruptly.
@@ -67,6 +69,29 @@ ID	**Class name**	Desciptions
 7	**Other**	Other event such as accident, unexpected behaviour, etc.
 
 ---------------------------------------------------------------------------
+
+The object class type has 5 class values, each of which describes below:
+
+---------------------------------------------------------------------------
+
+ID	**Class name**	Desciptions
+
+---------------------------------------------------------------------------
+
+1   **Car**    A generic class to annotate a vehicle, not necessarily a small car.
+
+2   **Motorcycle**   Refers to the standard motorbike on roads.
+
+3   **Pedestrian**   Refers to people walking or crossing road illegally.
+
+4   **Bicycle**   Refers to people who are cycling on the road .
+
+5   **Another Object**  & Refers to any objects that falls out of the above classes.
+
+---------------------------------------------------------------------------
+
+
+The time class type has 2 class values, 1= Day, 2= Night. This annotation information can be used for further classification process such as training specific case study base on the time of the day.
 
 
 
