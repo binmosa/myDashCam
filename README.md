@@ -47,16 +47,25 @@ The **spatial_coordinates** field holds the spatial coordinate information. It h
 
 #### 6) metadata
 The **metadata** field holds the annotation class id with the following structure: {"class_type":"class_id"}. For example, metadata of {"1":"3"} indicates class type with id "1" set to the class value with id "3". In this dataset, we have 3 types of classes: 1 = Activity Class, 2= Object class, 3=Time class. The activity class type has 7 class values, each of which describes below:
+
 ---------------------------------------------------------------------------
 ID	**Class name**	Desciptions
 ---------------------------------------------------------------------------
+
 1	**Sudden_lane_change**	A driver/rider in front changes the lane abruptly.
+
 2	**Illegal U-turn**	A driver/rider making a U-turn while it is not allowed.
+
 3	**Illegal crossing**	An object illegally crosses the road
+
 4	**Dangerous over-take**	A vehicle approaching fast from the back and over-taking a vehicle dangerously
+
 5	**Object on road**	The vehicle suddenly confronts an object on the road (including animals)
+
 6	**Wrong lane**	The vehicle is on a lane that it is not supposed to be on (including the reverse drive)
+
 7	**Other**	Other event such as accident, unexpected behaviour, etc.
+
 ---------------------------------------------------------------------------
 
 
