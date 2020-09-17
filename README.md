@@ -42,11 +42,11 @@ The **temporal_coordinates** field holds the temporal annotation information. It
 
 
 #### 5) spatial_coordinates
-The **spatial_coordinates** field holds the spatial coordinate information. It has the following structure:[shape id (e.g rectangle), shape location (a * a), shape size (a * a)]. For example, the spatial_coordinates of [2, 10, 20, 50, 80] denotes a rectangle (shape_id=2) of size 50x80 placed at (10, 20).
+The **spatial_coordinates** field holds the spatial coordinate information. It has the following structure:[shape id (e.g rectangle), shape location (a x a), shape size (a x a)]. For example, the spatial_coordinates of [2, 10, 20, 50, 80] denotes a rectangle (shape_id=2) of size 50x80 placed at (10, 20).
 
 
 #### 6) metadata
-The **metadata** field holds the annotation class id with the following structure: {"class_type":"class_id"}. For example, metadata of {""1"":""3""} indicates class type with id "1" set to the class value with id "3". In this dataset, we have 3 types of classes: 1 = Activity Class, 2= Object class, 3=Time class. The activity class type has 7 class values, each of which describes below:
+The **metadata** field holds the annotation class id with the following structure: {"class_type":"class_id"}. For example, metadata of {"1":"3"} indicates class type with id "1" set to the class value with id "3". In this dataset, we have 3 types of classes: 1 = Activity Class, 2= Object class, 3=Time class. The activity class type has 7 class values, each of which describes below:
 ---------------------------------------------------------------------------
 ID	**Class name**	Desciptions
 ---------------------------------------------------------------------------
